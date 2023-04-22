@@ -10,7 +10,7 @@ const Createcolor = () => {
         <Picker children="GREEN" style="text-red-500" />
       </div>
       <div className="flex items-center justify-center ">
-        <Inputcolor children="sa" style="w-40 h-20  " />
+        <Inputcolor children="sa" style="w-40 h-20  " bgcolor={''} />
       </div>
     </div>
   );
