@@ -6,7 +6,7 @@ const Randomcolor = () => {
   // eslint-disable-next-line prefer-const
   let [color, setcolor] = useState([
     {
-      name: '#000000',
+      name: '#FF6969',
       text: 'text-white',
     },
     {
