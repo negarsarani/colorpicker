@@ -40,7 +40,7 @@ const Randomcolor = () => {
 
   return (
     <div className="flex flex-col gap-4 items-center justify-center">
-      <Button onClick={handleClickRandom}> add color</Button>
+      <Button onClick={handleClickRandom}> random color</Button>
       <div className="flex flex-col gap-4 w-40 items-center justify-center">
         <Inputcolor
           children={color[0].name}
