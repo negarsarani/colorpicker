@@ -24,7 +24,7 @@ const Picker = ({ children, style, setcolor, id }: picker) => {
         children={<img src="./minus.svg" alt="" className="w-4" />}
         onClick={() => {
           setcolor((prev) => {
-            prev[id] < 255 ? --prev[id] : 0;
+            prev[id] > 255 ? --prev[id] : 0;
             return [...prev]
           });
         }}

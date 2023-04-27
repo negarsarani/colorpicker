@@ -3,7 +3,7 @@ import Picker from '../../components/picker';
 import { useState } from 'react';
 
 const Createcolor = () => {
-  const [color, setcolor] = useState([0, 0, 0]);
+  const [color, setcolor] = useState([100, 0, 0]);
 
   return (
     <div className="flex  gap-10 items-center justify-center ">

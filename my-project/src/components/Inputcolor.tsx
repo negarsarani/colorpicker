@@ -1,10 +1,13 @@
+import textColor from "./Constract";
+
 type Input = {
   children: string;
   style: string;
   bgcolor: string;
-  textcolor?: string;
+  textcolor?: string | any;
 };
 const Inputcolor = ({ children, style  , bgcolor , textcolor}: Input) => {
+  
   return (
     <div
       className={` border border-black rounded-xl flex flex-col items-center justify-center text-center ${style}`}
